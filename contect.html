@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Html_Learning_Project</title>
+    <link rel="icon" href="img_file/icon.png" type="image">
+    <meta name="auther" content="kanagaraj.s">
+    <meta name="description" content="this website i made for .practice my html.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contect Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">AboutLTS</a></li>
+                <li><a href="index.html#menu">Our Menu</a></li>
+                <li><a href="hours.html">Shop hours</a></li>
+            </ul>
+        </nav>
+        <article id="mainp">
+            <figure id="mainpic">
+                <img src="img_file/food2.jpg" alt="restaurant_table_food" title="the restaurant food" width="600"
+                    height="350" loading="lazy">
+                <figcaption>The hot food and cool drinks !</figcaption>
+
+            </figure>
+        </article>
+        <hr>
+    </header>
+    <main>
+        <article id="fill">
+            <h2>Our Contect information</h2>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>send us message</legend>
+                    <p>
+                        <label for="name">name :</label>
+                        <input type="text" name="name" id="name" placeholder="ex.kanagaraj S" required>
+                    </p>
+                    <p>
+                        <label for="email">email :</label>
+                        <input type="email" email="email" id="email" placeholder="ex.kanagaraj S" required>
+                    </p>
+                    <p>
+                        <label for="message">write something</label>
+                        <textarea name="message" id="message" placeholder="write somthing...!"></textarea>
+                    </p>
+
+                </fieldset>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </form>
+        </article>
+        <hr>
+        <article id="location">
+            <h2>Our location</h2>
+            <p>
+            <address>Olagadam,bhavani,erode,<br>
+                tamilnadu .mobile: 1112222333</address>
+            </p>
+
+        </article>
+
+    </main>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+</body>
+
+</html>
